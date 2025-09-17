@@ -1,8 +1,8 @@
 # 🕷️ Spider-Man | Multiversos
 
 # preview
+![Preview da Landing Page](./assets/images/capa.png)
 
-<img scr="./assets/images/capa.png">
 
 Landing Page interativa inspirada no universo do **Homem-Aranha**, destacando os três atores que deram vida ao herói nos cinemas: **Tobey Maguire, Andrew Garfield e Tom Holland**.  
 
