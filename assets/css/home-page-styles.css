@@ -17,6 +17,11 @@ body::before {
   z-index: -1;
   transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
 }
+
+main {
+  min-height: 100vh;
+}
+
 .s-menu {
   padding: 1rem 0;
   width: 100%;
@@ -42,7 +47,7 @@ body::before {
   transition: .8s ease-in-out;
 }
 
-.s-menu__item a:active{
+.s-menu__item a:active {
   color: black;
   opacity: 0.55;
 }
@@ -61,6 +66,7 @@ body::before {
   perspective: 3000px;
   min-height: 50px;
   padding: 20px;
+  perspective: 3000px;
 }
 
 .s-card {
@@ -73,15 +79,15 @@ body::before {
 }
 
 .s-card:nth-child(1) {
-  transform: rotateY(0deg) translateZ(50vw);
+  transform: rotateY(0deg) translateZ(430px);
 }
 
 .s-card:nth-child(2) {
-  transform: rotateY(120deg) translateZ(50vw);
+  transform: rotateY(120deg) translateZ(430px);
 }
 
 .s-card:nth-child(3) {
-  transform: rotateY(240deg) translateZ(50vw);
+  transform: rotateY(240deg) translateZ(430px);
 }
 
 .s-card__background {
